@@ -5,11 +5,11 @@
 namespace Engine
 {
 
-unsigned int HashedString::Hash( const char * i_string )
+unsigned int HashedString::Hash( const char * string )
 {
-	assert( i_string );
+	assert( string );
 
-	return Hash( reinterpret_cast<void *>( const_cast<char *>( i_string ) ), strlen( i_string ) );
+	return Hash( reinterpret_cast<void *>( const_cast<char *>( string ) ), strlen( string ) );
 }
 
 unsigned int HashedString::Hash( const void * i_bytes, size_t i_bytecount )

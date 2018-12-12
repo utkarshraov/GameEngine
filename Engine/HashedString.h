@@ -10,16 +10,16 @@ public:
 	HashedString();
 	~HashedString();
 	
-	HashedString( const char * i_string );
-	HashedString( const HashedString & i_other );
-	HashedString & operator=( const HashedString & i_other );
+	HashedString( const char * string );
+	HashedString( const HashedString & other );
+	HashedString & operator=( const HashedString & other );
 
 	unsigned int Get() const;
 
-	bool operator==( const HashedString & i_other ) const;
-	bool operator<( const HashedString & i_other ) const;
+	bool operator==( const HashedString & other ) const;
+	bool operator<( const HashedString & other ) const;
 
-	static unsigned int Hash( const char * i_string );
+	static unsigned int Hash( const char * string );
 	static unsigned int Hash( const void * i_bytes, size_t i_count );
 private:
 	unsigned int 	m_Hash;
