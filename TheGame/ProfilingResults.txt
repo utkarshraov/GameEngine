@@ -1,0 +1,17 @@
+Vector3 usage: 0.7%(system profiler)
+
+
+(my profiler)
+DEBUG: Physics run took an average of 0.012675, with a min time of 0.000000 and a max time of 0.128000 in miliseconds.
+DEBUG: Timer run took an average of 0.000745, with a min time of 0.000000 and a max time of 0.064000 in miliseconds.
+DEBUG: Profiling sampled a total time of 0.094721 in seconds.
+
+with SIMD
+(system profiler)
+Vector3 usage:0.7%
+
+(my profiler)
+
+DEBUG: Physics run took an average of 0.011452, with a min time of 0.000000 and a max time of 0.096000 in miliseconds.
+DEBUG: Timer run took an average of 0.000689, with a min time of 0.000000 and a max time of 0.058000 in miliseconds.
+DEBUG: Profiling sampled a total time of 0.085672 in seconds.

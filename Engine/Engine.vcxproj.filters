@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{a02c1087-e15c-409a-b309-8933a3ce724e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{8ad12d31-8355-4bde-b861-d420acc7e285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3a373b40-b136-4111-af98-f35cdc63f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e934787d-2578-458d-997b-a37013fd9558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{fd7e0642-ff48-4c84-b6fa-a55c2c78e8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{1b635a72-5392-428c-9cc8-b560a516f03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HashedString">
+      <UniqueIdentifier>{9caf3b1d-5f9a-491e-861c-0e8fcfff7c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging">
+      <UniqueIdentifier>{62f8f80c-ac4c-4c66-a49f-c75aac35dd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{61292186-693b-4b31-9533-77338f77406e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{e9b4994b-8e9e-4bd3-9e58-05dca862e4b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDescriptor.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedSizeAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugStatement.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BitArray.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectController.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider2D.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString.h">
+      <Filter>HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString-inl.h">
+      <Filter>HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="Messaging.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Vector3SIMD.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixSIMD.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GLib.h" />
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedSizeAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="BitArray.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStatement.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString.cpp">
+      <Filter>HashedString</Filter>
+    </ClCompile>
+    <ClCompile Include="Messaging.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
